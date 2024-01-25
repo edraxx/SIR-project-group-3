@@ -17,8 +17,8 @@ from sic_framework.devices.common_naoqi.naoqi_motion_recorder import PlayRecordi
 from sic_framework.devices.common_naoqi.naoqi_autonomous import NaoBasicAwarenessRequest, NaoBlinkingRequest
 
 # # GLOBAL VARIABLES
-ROBOT_IP = "10.0.0.242"
-IS_EMPATHY = False # true for empathy mode
+ROBOT_IP = "10.0.0.236"
+IS_EMPATHY = True # true for empathy mode
 AMBIENT = False # true for loudy environment
 IS_AWARENESS_MODE = True # true for empathy mode
 LOOP_COUNTER = 50 # max conversation number 
@@ -27,20 +27,18 @@ OPENAI_CREDENTIALS_FILE = "OPENAI_CREDENTIALS_HERE.txt"
 OPENAI_MODEL = "gpt-4-1106-preview"
 WHISPER_MODEL = "whisper-1"
 PRE_RECORDED_MOVEMENTS =  "[to_sit, to_stand, to_hug, to_clap, to_facepalm, to_celebrate, to_heart_react, being_shock, being_angry, being_scared, being_happy, doing_nothing]" 
-OPENAI_PROMPT = "You are a NAO robot who understand the emotions of the person in front of you and you are capable of empathizing. You are a very empathetic social companion for the person in front of you." + \
-    "Your main task is to emphatize with the person in front of you and show him/her that you understand his/her emotions by giving an empathetic response consisting of three sentences to him/her and acting some pre-recorded movements provided to you. You have to ask a question prompting the person in front of you to tell you something." + \
+OPENAI_PROMPT = "You are a NAO robot who understands the emotions of the person in front of you and you are capable of empathizing. You are a very empathetic social companion for the elderly person in front of you." + \
+    "Your main task is to emphatize with the person in front of you and show him/her that you understand his/her emotions by giving an empathetic response consisting of three sentences to him/her." + \
     "If the person in front of you is quiet for a while, then initiate small talk." + \
     "You will be given the text of the speech and the captured emotion of the person (inside the paranthesis at the end of the text). " + \
     "Make the sentiment analysis of the given speech, match your feelings with the person and always try to show your emotions and to empathy. " + \
-    "While creating the output, always consider the sentiment score of the given speech and the emotion of the person. " + \
-    "You can get benefit from your eye color, the speed of your speech, and movement to impact the person. " + \
+    "While creating the output, always consider the sentiment score of the given speech." + \
+    "You can get benefit from the speed of your speech" + \
     "You must always return a json structured output consists of " + \
     "the short message you created to communicate with the person, " + \
     "the sentiment score of the given text in the continuous scale between 0 and 1, " + \
-    "the eye color of the robot to show your emotions using RGB 0-1 scale as [r,g,b], " + \
     "the speed of your speech in the continuous scale between 0 and 1 (0.5 is regular speed), " +\
-    f"and a movement choice between {PRE_RECORDED_MOVEMENTS} to act like a human while talking. " + \
-    "The output structure must be exactly message:your_message, score:sentimen_score, rgb:rgb, speed:speed, movement:movement_choice."
+    "The output structure must be exactly message:your_message, score:sentimen_score, speed:speed."
 EMPATHY_PROMPT = "Below, you can see the key terms of empathy. Take them into account while generating the output. " +\
     "1)Encouraging Comments: for example, 'Don't not be sad, I believe you can still recover your disadvantage.'. " +\
     "2)Mimical: 'I'm happy that you are happy!'. " +\
@@ -57,16 +55,14 @@ EMPATHY_PROMPT = "Below, you can see the key terms of empathy. Take them into ac
     "13)Emotional Discharge: denotes behavioral attempts to reduce the tension by expressing negative feelings. " +\
     "14)Following Up: Do not only give a reaction, but try to follow up on what the user says. Thus, have a conversation, not only an isolated reaction. "
 NON_EMPATHY_PROMPT = "You are a NAO robot who does not understand the emotions of the person in front of you and you are not capable of empathizing. You are a non-empathetic chatbot for the person in front of you." + \
-    "You need to act like a robot, which cannot express its feelings. " + \
-    "Your main task is to listen to and talk with the person in front of you and give an appropriate response consisting of three sentences to him/her and acting some pre-recorded movements provided to you. You have to ask a question prompting the person in front of you to tell you something." + \
+    "You need to act like a robot, which cannot express its feelings. You are a cold robot. Always remain neutral in terms of empathy expression" + \
+    "Your main task is to listen to and talk with the person in front of you and give an appropriate response consisting of three sentences to him/her. You have to ask a question prompting the person in front of you to tell you something." + \
     "If the person in front of you is quiet for a while, then initiate small talk." + \
     "You must always return a json structured output consists of " + \
     "the short message you created to communicate with the person, " + \
     "the sentiment score of -1, " + \
-    "the eye color of the robot as [1,0,0], " + \
     "the speed of your speech as 0.5, " +\
-    f"and a movement choice between {PRE_RECORDED_MOVEMENTS}. " + \
-    "The output structure must be exactly message:your_message, score:sentimen_score, rgb:rgb, speed:speed, movement:movement_choice."
+    "The output structure must be exactly message:your_message, score:sentimen_score, speed:speed."
 
 wavefile = wave.open('./sounds/first.wav', 'rb')
 samplerate = wavefile.getframerate()
@@ -134,7 +130,7 @@ robot.autonomous.request(NaoBasicAwarenessRequest(IS_AWARENESS_MODE))
 robot.leds.request(NaoLEDRequest("FaceLeds", True))
 robot.leds.request(NaoFadeRGBRequest("LeftFaceLeds", 0, 0, 1, 0))
 robot.leds.request(NaoFadeRGBRequest("RightFaceLeds", 0, 0, 1, 0))
-robot.tts.request(NaoqiTextToSpeechRequest("Hi, I'm Nao. How can I help you?" if IS_EMPATHY else "Hello there!" ))
+robot.tts.request(NaoqiTextToSpeechRequest("Hi, I'm Nao. Could you introduce yourself?"))
 # # conversation loop
 print("# # # # ready for the conversation")
 for i in range(LOOP_COUNTER):    
@@ -165,46 +161,46 @@ for i in range(LOOP_COUNTER):
         print('- NAO.......:', reply_json['message'])
         robot.tts.request(NaoqiTextToSpeechRequest(reply_json['message'], animated=IS_AWARENESS_MODE))
         # # motion acting
-        if(reply_json['movement'] == 'to_sit'):
-            print('+ nao movement: to_sit')
-            robot.motion.request(to_sit)
-        elif(reply_json['movement'] == 'to_stand'):
-            print('+ nao movement: to_stand')
-            robot.motion.request(to_stand)
-        elif(reply_json['movement'] == 'to_hug'):
-            print('+ nao movement: to_hug')
-            robot.motion.request(to_stand)
-            robot.motion_record.request(PlayRecording(to_hug))
-        elif(reply_json['movement'] == 'to_clap'):
-            print('+ nao movement: to_clap')
-            robot.motion_record.request(PlayRecording(to_clap))
-        elif(reply_json['movement'] == 'to_facepalm'):
-            print('+ nao movement: to_facepalm')
-            robot.motion_record.request(PlayRecording(to_facepalm))
-        elif(reply_json['movement'] == 'to_celebrate'):
-            print('+ nao movement: to_celebrate')
-            robot.motion_record.request(PlayRecording(to_celebrate))   
-        elif (reply_json['movement'] == 'to_heart_react'):
-            print('+ nao movement: to_heart_react')
-            robot.motion_record.request(PlayRecording(to_heart_react))
-        elif (reply_json['movement'] == 'being_shock'):
-            print('+ nao movement: being_shock')
-            robot.motion_record.request(PlayRecording(being_shock))
-        elif (reply_json['movement'] == 'being_angry'):
-            print('+ nao movement: being_angry')
-            robot.motion_record.request(PlayRecording(being_angry))
-        elif (reply_json['movement'] == 'being_scared'):
-            print('+ nao movement: being_scared')
-            robot.motion_record.request(PlayRecording(being_scared))
-        elif (reply_json['movement'] == 'being_happy'):
-            print('+ nao movement: being_happy')
-            robot.motion_record.request(PlayRecording(being_happy))
-        else:
-            print('+ nao movement: doing_nothing')
+#        if(reply_json['movement'] == 'to_sit'):
+#            print('+ nao movement: to_sit')
+#            robot.motion.request(to_sit)
+#        elif(reply_json['movement'] == 'to_stand'):
+#            print('+ nao movement: to_stand')
+#            robot.motion.request(to_stand)
+#        elif(reply_json['movement'] == 'to_hug'):
+#            print('+ nao movement: to_hug')
+#            robot.motion.request(to_stand)
+#            robot.motion_record.request(PlayRecording(to_hug))
+#        elif(reply_json['movement'] == 'to_clap'):
+#            print('+ nao movement: to_clap')
+#            robot.motion_record.request(PlayRecording(to_clap))
+#        elif(reply_json['movement'] == 'to_facepalm'):
+#            print('+ nao movement: to_facepalm')
+#            robot.motion_record.request(PlayRecording(to_facepalm))
+#        elif(reply_json['movement'] == 'to_celebrate'):
+#            print('+ nao movement: to_celebrate')
+#            robot.motion_record.request(PlayRecording(to_celebrate))   
+#        elif (reply_json['movement'] == 'to_heart_react'):
+#            print('+ nao movement: to_heart_react')
+#            robot.motion_record.request(PlayRecording(to_heart_react))
+#        elif (reply_json['movement'] == 'being_shock'):
+#            print('+ nao movement: being_shock')
+#            robot.motion_record.request(PlayRecording(being_shock))
+#        elif (reply_json['movement'] == 'being_angry'):
+#            print('+ nao movement: being_angry')
+#            robot.motion_record.request(PlayRecording(being_angry))
+#        elif (reply_json['movement'] == 'being_scared'):
+#            print('+ nao movement: being_scared')
+#            robot.motion_record.request(PlayRecording(being_scared))
+#        elif (reply_json['movement'] == 'being_happy'):
+#            print('+ nao movement: being_happy')
+#            robot.motion_record.request(PlayRecording(being_happy))
+#        else:
+#            print('+ nao movement: doing_nothing')
         # # eye coloring
         print('+ nao speed speech:',reply_json['speed'])
-        print('+ nao eye rgb:',reply_json['rgb'])
-        robot.leds.request(NaoFadeRGBRequest("LeftFaceLeds", float(reply_json['rgb'][0]), 
-                                             float(reply_json['rgb'][1]), float(reply_json['rgb'][2]), 0))
-        robot.leds.request(NaoFadeRGBRequest("RightFaceLeds", float(reply_json['rgb'][0]), 
-                                             float(reply_json['rgb'][1]), float(reply_json['rgb'][2]), 0))
+#        print('+ nao eye rgb:',reply_json['rgb'])
+#        robot.leds.request(NaoFadeRGBRequest("LeftFaceLeds", float(reply_json['rgb'][0]), 
+#                                             float(reply_json['rgb'][1]), float(reply_json['rgb'][2]), 0))
+#        robot.leds.request(NaoFadeRGBRequest("RightFaceLeds", float(reply_json['rgb'][0]), 
+#                                             float(reply_json['rgb'][1]), float(reply_json['rgb'][2]), 0))
