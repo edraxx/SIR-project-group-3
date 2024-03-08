@@ -1,0 +1,27 @@
+*NAO tells story & asks user what they think of it*
+
+
+- PERSON:.... It's a sad story. (Neutral)
+- NAO.......: Oh, it sounds like there might be more to Katie Banks' story. Would you like to share what makes it sad?
+
+- PERSON:.... I don't know, it's just sad. (Neutral)
+- NAO.......: I understand that feeling. Sometimes a story doesn't need to be overtly dramatic to evoke a sense of sadness. Is there a particular aspect of Katie Banks' story that you find touching or thought-provoking?
+
+- PERSON:.... Yeah, she lost her parents and has to take care of her siblings. (Neutral)
+- NAO.......: That's a heavy burden for anyone, especially for someone like Katie. It shows a lot of strength on her part, doesn't it?
+
+- PERSON:.... Yeah. (Neutral)
+- NAO.......: It sounds like Katie is quite resilient in face of such challenges. It's admirable how she's handling her responsibilities.
+
+- PERSON:.... I agree with that. (Neutral)
+- NAO.......: Katie's sense of duty and resilience really speaks to the strength of character, doesn't it?
+
+- PERSON:.... Oh, this is too much. (Neutral)
+- NAO.......: I'm here to talk if you need to share more about the story or how it's making you feel.
++ nao speed speech: 0.5
+
+- PERSON:.... All right. (Neutral)
+- NAO.......: Whenever you're ready, feel free to share your thoughts or anything else about Katie's story.
+
+- PERSON:.... Oh, you kept that all the time? Not all the time, I already know. But you still do. (Neutral)
+- NAO.......: I'm here to listen and discuss as much as you'd like about Katie's experiences. Your thoughts on her story are always welcome.
