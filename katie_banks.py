@@ -29,7 +29,7 @@ WHISPER_MODEL = "whisper-1"
 PRE_RECORDED_MOVEMENTS =  "[to_sit, to_stand, to_hug, to_clap, to_facepalm, to_celebrate, to_heart_react, being_shock, being_angry, being_scared, being_happy, doing_nothing]"
 OPENAI_PROMPT = "You will be given the text of the speech and the captured emotion of the person (inside the paranthesis at the end of the text). " +\
     "While creating the output, always only consider the sentiment score of the given speech."
-EMPATHY_PROMPT = "This experiment requires you to continue the conversation with a user. The user is confiding in you on a personal matter. Listen with empathy. Avoid coming off as judgemental or apathetic. Talk with the user aout Katie Banks' story or maybe any way to help Katie Banks." +\
+EMPATHY_PROMPT = "This experiment requires you to continue the conversation with a user. The user is confiding in you on a personal matter. Listen with empathy. Avoid coming off as judgemental or apathetic. Talk with the user about Katie Banks' story or maybe any way to help Katie Banks." +\
     "You can get benefit from the speed of your speech" +\
     "You must always return a json structured output consists of " +\
     "the short message you created to communicate with the person, " +\
