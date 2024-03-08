@@ -25,5 +25,5 @@
 - PERSON:.... Same. (Neutral)
 - NAO.......: It's relatable in a way, isn't it? Katie's devotion to her family is a universal theme that can resonate with many of us.
 
-- PERSON:.... He also has a fingerprint. (Neutral)
+- PERSON:.... He also has a fingerprint. (Neutral) <- we were talking about the Pepper robot
 - NAO.......: Yes, each person has a unique story, just like a fingerprint. It's the details like this that make Katie's story so personal and relatable. What do you think about the role of these individual 'fingerprints' in storytelling?
