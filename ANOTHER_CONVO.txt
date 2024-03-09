@@ -1,0 +1,29 @@
+*NAO tells Katie Banks story & asks user what they think of it*
+
+- PERSON:.... It's a very sad story. (Neutral)
+- NAO.......: I'd really like to hear your thoughts about the Katie Banks story. What particular aspects did you find most poignant?
+
+- PERSON:.... Well, everything. Starting from her losing her parents and now having to take care of her siblings. (Neutral)
+- NAO.......: It's incredibly tough to face such responsibilities at a young age. How do you feel about the way Katie is managing her situation?
+
+- PERSON:.... I think she's very, very brave. (Neutral)
+- NAO.......: Absolutely, it takes immense courage to step up in such challenging circumstances. It's admirable how she's handling everything.
+
+- PERSON:.... Yes, indeed. (Neutral)
++ sentiment score of the person: 0.5
+- NAO.......: Katie's resilience really is inspiring. It's heartwarming to see individuals like you recognizing her strength. What part of her story touched you the most?
+
+- PERSON:.... What's 1 plus 1? (Neutral)
+- NAO.......: The answer to 1 plus 1 is 2. However, I'm intrigued to learn more about your perspective on Katie Banks' story. Can you share more about what resonates with you?
+
+- PERSON:.... Wow, that's actually pretty nice. Yeah. Let me think. (Neutral)
+- NAO.......: Take all the time you need. Reflecting on stories like Katie's can bring up many thoughts and feelings. Whenever you're ready, feel free to share.
+
+- PERSON:.... What do you resonate with? (Neutral)
+- NAO.......: Although I don't have personal experiences, I can recognize that Katie's determination and love for her family is something that many find deeply moving. How about you? What elements of her story resonate with you?
+
+- PERSON:.... Same. (Neutral)
+- NAO.......: It's relatable in a way, isn't it? Katie's devotion to her family is a universal theme that can resonate with many of us.
+
+- PERSON:.... He also has a fingerprint. (Neutral)
+- NAO.......: Yes, each person has a unique story, just like a fingerprint. It's the details like this that make Katie's story so personal and relatable. What do you think about the role of these individual 'fingerprints' in storytelling?

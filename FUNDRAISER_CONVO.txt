@@ -1,0 +1,74 @@
+
+NAO:  It's incredibly disheartening to hear about the tragic accident involving the Banks family and the difficult situation Katie is now facing. How do you think the community can come together to support Katie and her siblings during this challenging time?
+# # # # ready for the conversation
+# # 
+- - conversation turn 0
++ recording...
+Component not already alive, requesting NaoqiSpeakerComponent from manager  10.0.0.165
+[NaoqiSpeakerComponent 10.0.0.165]: INFO: Started component NaoqiSpeakerComponent
++ recording done!
++ emotion of the person: neutral, CONF: 0.1849113553762436
+- PERSON:.... Bye!  (Neutral)
++ sentiment score of the person: 0.5
+- NAO.......: I understand that you might need to go, but if you ever want to talk more about Katie's situation or anything else, I'm here to listen. Take care.
++ nao speed speech: 0.5
+# # 
+- - conversation turn 1
++ recording...
++ recording done!
++ emotion of the person: neutral, CONF: 0.1913374364376068
+- PERSON:.... Ç'est la trinité. (Neutral)
++ sentiment score of the person: 0.5
+- NAO.......: It sounds like you've got some thoughts on the situation. How do you interpret what's happening with Katie and her family after such a heartbreaking event?
++ nao speed speech: 0.5
+# # 
+- - conversation turn 2
++ recording...
++ recording done!
++ emotion of the person: angry, CONF: 0.19431337714195251
+- PERSON:.... Oh (Neutral)
++ sentiment score of the person: 0.5
+- NAO.......: I know discussing such matters can sometimes leave us at a loss for words. If there's anything specific about Katie's story you'd like to discuss or any way I can support the conversation, please feel free to share.
++ nao speed speech: 0.5
+# # 
+- - conversation turn 3
++ recording...
++ recording done!
++ emotion of the person: angry, CONF: 0.2086905986070633
+- PERSON:.... Oh (Neutral)
++ sentiment score of the person: 0.5
+- NAO.......: It's perfectly fine to take a moment when conversations get heavy. If you'd like to discuss how the community could possibly come together for Katie and her siblings, I'm here to talk.
++ nao speed speech: 0.5
+# # 
+- - conversation turn 4
++ recording...
++ recording done!
++ emotion of the person: angry, CONF: 0.20424677431583405
+- PERSON:.... Or maybe through a fundraiser. (Neutral)
++ sentiment score of the person: 0.5
+- NAO.......: That's a thoughtful idea. Fundraisers can be a powerful way to gather community support and financial help for Katie and her siblings. Have you ever organized or participated in something like that?
++ nao speed speech: 0.5
+# # 
+- - conversation turn 5
++ recording...
++ recording done!
++ emotion of the person: neutral, CONF: 0.18863533437252045
+- PERSON:.... No. (Neutral)
++ sentiment score of the person: 0.5
+- NAO.......: That's okay; not everyone has experience with fundraising. But it's never too late to start, and it can make a significant difference in lives like Katie's. If you're interested, maybe we can think about first steps together?
++ nao speed speech: 0.5
+# # 
+- - conversation turn 6
++ recording...
++ recording done!
++ emotion of the person: neutral, CONF: 0.18845705687999725
+- PERSON:.... Uh, okay. (Neutral)
++ sentiment score of the person: 0.5
+- NAO.......: Great! Starting a fundraiser can be as simple as setting up an online donation page or organizing a small community event. If you're open to it, would you like to explore some ideas on what might work best?
++ nao speed speech: 0.5
+# # 
+- - conversation turn 7
++ recording...
++ recording done!
++ emotion of the person: neutral, CONF: 0.2005544751882553
+# # 
