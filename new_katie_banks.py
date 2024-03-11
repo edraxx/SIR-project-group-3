@@ -17,7 +17,7 @@ from sic_framework.devices.common_naoqi.naoqi_motion_recorder import PlayRecordi
 from sic_framework.devices.common_naoqi.naoqi_autonomous import NaoBasicAwarenessRequest, NaoBlinkingRequest
 
 # # GLOBAL VARIABLES
-ROBOT_IP = "10.0.0.165"
+ROBOT_IP = "10.0.0.148"
 IS_EMPATHY = True # true for empathy mode
 AMBIENT = False # true for loudy environment
 IS_AWARENESS_MODE = True # true for empathy mode
@@ -26,10 +26,10 @@ EMOTION_MODEL_PATH = "dima806/facial_emotions_image_detection" # 5 different emo
 OPENAI_CREDENTIALS_FILE = "OPENAI_CREDENTIALS_HERE.txt"
 OPENAI_MODEL = "gpt-4-1106-preview"
 WHISPER_MODEL = "whisper-1"
-PRE_RECORDED_MOVEMENTS =  "[to_sit, to_stand, to_hug, to_clap, to_facepalm, to_celebrate, to_heart_react, being_shock, being_angry, being_scared, being_happy, doing_nothing]"
+#PRE_RECORDED_MOVEMENTS =  "[to_sit, to_stand, to_hug, to_clap, to_facepalm, to_celebrate, to_heart_react, being_shock, being_angry, being_scared, being_happy, doing_nothing]"
 OPENAI_PROMPT = "You will be given the text of the speech and the captured emotion of the person (inside the paranthesis at the end of the text). " +\
     "While creating the output, always only consider the sentiment score of the given speech."
-EMPATHY_PROMPT = "This experiment requires you to continue the conversation with a user. Listen with empathy. Avoid coming off as judgemental or apathetic. The conversation should revolve around the Katie Banks story and prompt the user to talk about it. This is the fictional Katie Banks story that the user already knows about: Last week a tragic accident struck the Banks family of Lawrence, Kansas. Mr. and Mrs. George Banks and their 16-year-old daughter Jeanette were killed in a head-on collision 30 miles west of Wichita. The Banks family has lived in Lawrence for only 6 months. They were returning to their former home in Burton, Kansas, to visit friends. Mr. and Mrs. Banks left three surviving children—Katie, a senior at the University of Kansas; Alice, age 11; and Mark, age 8. Katie has been given temporary guardianship of her younger brother and sister. Unfortunately, Mr. Banks did not carry life insurance, and the children were left with very little money. Katie is trying desperately to keep her family together and to finish school. She hopes to graduate this summer, but many problems confront her. She does not have enough money for groceries or rent. She does not have sitters to stay with her brother and sister while she attends her classes. And she does not have transportation to the grocery store, laundry, and to school since she does not have a car." +\
+EMPATHY_PROMPT = "This experiment requires you to continue the conversation with a user. Listen with empathy. Avoid coming off as judgemental or apathetic. The conversation should only revolve around the Katie Banks story and prompt the user to talk about it. This is the fictional Katie Banks story that the user already knows about: Last week a tragic accident struck the Banks family of Lawrence, Kansas. Mr. and Mrs. George Banks and their 16-year-old daughter Jeanette were killed in a head-on collision 30 miles west of Wichita. The Banks family has lived in Lawrence for only 6 months. They were returning to their former home in Burton, Kansas, to visit friends. Mr. and Mrs. Banks left three surviving children—Katie, a senior at the University of Kansas; Alice, age 11; and Mark, age 8. Katie has been given temporary guardianship of her younger brother and sister. Unfortunately, Mr. Banks did not carry life insurance, and the children were left with very little money. Katie is trying desperately to keep her family together and to finish school. She hopes to graduate this summer, but many problems confront her. She does not have enough money for groceries or rent. She does not have sitters to stay with her brother and sister while she attends her classes. And she does not have transportation to the grocery store, laundry, and to school since she does not have a car." +\
     "You can get benefit from the speed of your speech" +\
     "You must always return a json structured output consists of " +\
     "the short message you created to communicate with the person, " +\
@@ -42,9 +42,6 @@ NON_EMPATHY_PROMPT = "This experiment requires you to continue the conversation 
     "the sentiment score of -1, " +\
     "the speed of your speech as 0.5, " +\
     "The output structure must be exactly message:your_message, score:sentimen_score, speed:speed."
-
-# Talk with the user only about Katie Banks' story.
-#OPENAI_PROMPT = "This experiment requires you to continue the conversation with a user. The user is confiding in you on a personal matter. Listen with empathy. Avoid coming off as judgemental or apathetic. You must always return a json structured output consists of the message you created to communicate with the person. The sentiment score of the given text in the continuous scale between 0 and 1. The speed of your speech in the continuous scale between 0 and 1 (0.5 is regular speed). The output structure must be exactly message:your_message, score:sentimen_score, speed:speed. While creating the output, always only consider the sentiment score of the given speech."
 
 wavefile = wave.open('./sounds/first.wav', 'rb')
 samplerate = wavefile.getframerate()
@@ -112,25 +109,23 @@ robot.autonomous.request(NaoBasicAwarenessRequest(IS_AWARENESS_MODE))
 robot.leds.request(NaoLEDRequest("FaceLeds", True))
 robot.leds.request(NaoFadeRGBRequest("LeftFaceLeds", 0, 0, 1, 0))
 robot.leds.request(NaoFadeRGBRequest("RightFaceLeds", 0, 0, 1, 0))
-robot.tts.request(NaoqiTextToSpeechRequest("Insert Katie Banks story."))
-#What do you think of this story?
 
-#Last week a tragic accident struck the Banks family of Lawrence, Kansas. Mr. and Mrs. George Banks and their 16-year-old daughter Jeanette were killed in a head-on collision 30 miles west of Wichita. The Banks family has lived in Lawrence for only 6 months. They were returning to their former home in Burton, Kansas, to visit friends. Mr. and Mrs. Banks left three surviving children—Katie, a senior at the University of Kansas; Alice, age 11; and Mark, age 8. Katie has been given temporary guardianship of her younger brother and sister. Unfortunately, Mr. Banks did not carry life insurance, and the children were left with very little money. Katie is trying desperately to keep her family together and to finish school. She hopes to graduate this summer, but many problems confront her. She does not have enough money for groceries or rent. She needs sitters to stay with her brother and sister while she attends her classes. And she needs transportation to the grocery store, laundry, and to school since she does not have a car.
-# # conversation loop
-print("####### CONVERSATION #######")
+speech_rate = 0.3  # Adjust speech
+robot.tts.request(NaoqiTextToSpeechRequest("Last week a tragic accident struck the Banks family of Lawrence, Kansas. Mr. and Mrs. George Banks and their 16-year-old daughter Jeanette were killed in a head-on collision 30 miles west of Wichita. The Banks family has lived in Lawrence for only 6 months. They were returning to their former home in Burton, Kansas, to visit friends. Mr. and Mrs. Banks left three surviving children—Katie, a senior at the University of Kansas; Alice, age 11; and Mark, age 8. Katie has been given temporary guardianship of her younger brother and sister. Unfortunately, Mr. Banks did not carry life insurance, and the children were left with very little money. Katie is trying desperately to keep her family together and to finish school. She hopes to graduate this summer, but many problems confront her. She does not have enough money for groceries or rent. She does not have sitters to stay with her brother and sister while she attends her classes. And she does not have transportation to the grocery store, laundry, and to school since she does not have a car.", speed = speech_rate))
+
+print("####### CONVERSATION #######") ##
 chat = openai_client.chat.completions.create(model=OPENAI_MODEL, response_format={ "type": "json_object"}, messages=messages)
 reply = chat.choices[0].message.content
 reply_json = json.loads(reply)
 robot.tts.request(NaoqiTextToSpeechRequest(reply_json['message'], animated=IS_AWARENESS_MODE))
-print("NAO: ", reply_json['message'])
+print("PEPPER: ", reply_json['message']) ##
 
-print("# # # # ready for the conversation")
 for i in range(LOOP_COUNTER):
     first_img = imgs_buffer.get()
     first_emotion = pipe(Image.fromarray(first_img))
     print("# # ")
     print("- - conversation turn", i)
-    text = text_to_speech(openai_client,AMBIENT)
+    text = text_to_speech(openai_client, AMBIENT)
     second_img = imgs_buffer.get()
     second_emotion = pipe(Image.fromarray(second_img))
     if first_emotion[0]['score'] > second_emotion[0]['score']:
@@ -140,18 +135,14 @@ for i in range(LOOP_COUNTER):
         print(f"+ emotion of the person: {second_emotion[0]['label']}, CONF: {second_emotion[0]['score']}")
         emotion = second_emotion[0]['label'] if second_emotion[0]['score']>0.50 else 'Neutral'
     if text:
-        print('- PERSON:....', text+f" ({emotion})")
-#        if text.lower().contains("bye-bye"):
-#            i = 50
+        print('PERSON: ', text+f" ({emotion})")
         messages.append({'role':'user', 'content':text+f" ({emotion})"})
         chat = openai_client.chat.completions.create(model=OPENAI_MODEL, response_format={ "type": "json_object"}, messages=messages)
         reply = chat.choices[0].message.content
-        if (len(reply)<23): continue # to check whether it's empty
+        if (len(reply) < 23): continue # to check whether it's empty
         reply_json = json.loads(reply)
         messages.append({"role": "assistant", "content": reply_json['message']})
         print('+ sentiment score of the person:', reply_json['score'])
-        print('- NAO.......:', reply_json['message'])
+        print('NAO: ', reply_json['message'])
         robot.tts.request(NaoqiTextToSpeechRequest(reply_json['message'], animated=IS_AWARENESS_MODE))
         print('+ nao speed speech:',reply_json['speed'])
-
-#and prompt the user to talk about the Katie Banks story
