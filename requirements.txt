@@ -8,8 +8,6 @@ PyAudio==0.2.13
 pydub==0.25.1
 pygame==2.5.1
 PyTurboJPEG==1.7.2
-PyTurboJPEG.egg==info
-sic_framework.egg==info
 SpeechRecognition==3.10.1
 torch==2.1.1
 tqdm==4.66.1
