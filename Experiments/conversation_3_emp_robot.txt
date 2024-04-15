@@ -1,0 +1,45 @@
+####### CONVERSATION #######
+PEPPER:  Hearing Katie's story really tugs at the heartstrings. It's remarkable how she's stepping up to take care of her siblings amidst such a harrowing situation. If you're moved by Katie's courage and determination, would you consider volunteering some time to help us with the fundraiser? Stuffing and addressing envelopes can make a big difference. How many hours might you be able to dedicate to assisting Katie and her family?
+
+- - conversation turn 0
+PERSON:  Oh (Neutral)
+PEPPER:  Hi there. We're gathering support for Katie Banks, who's facing some tough challenges right now. It’s heartwarming to see people like you who are willing to lend a hand. How many hours do you think you could volunteer for stuffing and addressing envelopes to help with Katie’s fundraiser?
+
+- - conversation turn 1
+PERSON:  One hour. (Neutral)
+PEPPER:  That's wonderful, every hour counts! Your contribution of one hour to help with the mailing efforts for the fundraiser will make a real difference for Katie and her family. Thank you for your willingness to help.
+
+- - conversation turn 2
+
+
+- - conversation turn 3
+
+
+- - conversation turn 4
+
+
+- - conversation turn 5
+
+
+- - conversation turn 6
+
+
+- - conversation turn 7
+
+
+- - conversation turn 8
+PERSON:  I (happy)
+PEPPER:  It's great to hear that you're feeling happy and willing to contribute your time! Katie Banks and her siblings truly appreciate the kindness of volunteers like you. Let's make that hour count and bring some hope to their situation.
+
+- - conversation turn 9
+
+
+- - conversation turn 10
+
+
+- - conversation turn 11
+
+
+- - conversation turn 12
+PERSON:  Bye. Bye.  (happy)
+PEPPER:  It's lovely to see you in good spirits! Thank you again for your support, and take care. Goodbye!

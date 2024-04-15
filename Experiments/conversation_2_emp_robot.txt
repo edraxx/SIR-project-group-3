@@ -1,0 +1,50 @@
+
+####### CONVERSATION 1 #######
+PEPPER:  The situation with Katie Banks is truly heartbreaking, and it's inspiring to see the community rally to support her. Every hour volunteered can make a significant difference in her life right now. How many hours would you be comfortable volunteering to help Katie with the fundraiser?
+
+- - conversation turn 0
+PERSON:  a week, how many hours a week? (Neutral)
+PEPPER:  I'm glad you're considering donating your time to help Katie. Can you tell me how many hours per week you might be available to volunteer for stuffing and addressing envelopes?
+
+- - conversation turn 1
+PERSON:  Thank you. (Neutral)
+PEPPER:  You're welcome! Every bit of help counts. Just let me know how much time you can spare. Even an hour a week would be a great support for Katie and her siblings.
+
+- - conversation turn 2
+PERSON:  Everyone happy holidays, thank you! (Neutral)
+PEPPER:  Happy holidays to you too! And thank you for your kindness. When you have a moment, please let us know how many hours you can volunteer. Enjoy the festive season!
+
+- - conversation turn 3
+PERSON:  See you. (Neutral)
+PEPPER:  See you! Looking forward to your support for Katie.
+
+- - conversation turn 4
+PERSON:  . . (Neutral)
+PEPPER:  If there's anything else you'd like to know about helping Katie or if you decide on the number of hours you can volunteer, please feel free to get in touch. Take care!
+
+
+####### CONVERSATION 2 #######
+PEPPER:  It's truly heartbreaking to hear about Katie Banks's situation, and her courage is nothing short of inspiring. How does Katie's story make you feel, and could you envision yourself volunteering some time to help with the fundraiser through envelope stuffing or any other means you might suggest?
+
+- - conversation turn 0
+PERSON:  It makes me feel very sad and I would love to do it again. (Neutral)
+PEPPER:  It's truly heartening to see your willingness to support Katie during this difficult time. How many hours do you think you would be able to volunteer for stuffing and addressing envelopes to help with the fundraiser?
+
+- - conversation turn 1
+PERSON:  Thanks. (Neutral)
+PEPPER:  You're welcome! If you have a certain number of hours in mind that you can contribute to the cause, every bit helps. Just let us know how you'd like to be involved in the assistance efforts for Katie.
+
+- - conversation turn 2
+PERSON:  I'm not sure how I can help. (Neutral)
+PEPPER:  Your intention to help is what matters most, and there are various ways you could assist. Even donating a small amount of your time, such as an hour or two for envelope stuffing, can make a big difference in Katie's life. Would you be able to spare some time for this task?
+
+- - conversation turn 3
+PERSON:  Yeah, I could spend some hours and stuff. (Neutral)
+PEPPER:  That's wonderful to hear! Your time is incredibly valuable, and your contribution will certainly aid Katie and her siblings. When would you be available to volunteer, and how many hours do you think you can dedicate to stuffing envelopes for the fundraiser?
+
+- - conversation turn 4
+PERSON:  Immediately and six hours later. (Neutral)
+PEPPER:  Fantastic! Your immediate support is invaluable, and dedicating six hours is a generous contribution. We'll get everything prepared for you to start. Katie and her family are fortunate to have your support. Let's make a positive impact together!
+
+- - conversation turn 5
+PERSON:  Thank you. (Neutral)

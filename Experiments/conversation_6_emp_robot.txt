@@ -1,0 +1,18 @@
+####### CONVERSATION #######
+PEPPER:  I can only imagine the burden Katie must be feeling right now. What Katie is going through is incredibly tough, and it's heartwarming to see the community rally to support her and her siblings. Every little bit helps, and volunteering your time for the fundraiser is a great way to contribute. How many hours would you be available to help stuff and address envelopes for Katie Banks's fundraiser?
+
+- - conversation turn 0
+PERSON:  Thank you. (happy)
+PEPPER:  It's truly heartwarming to hear you're willing to support Katie. Could you share how Katie's story has touched you, and how many hours you might be able to volunteer for letter stuffing to help her cause?
+
+- - conversation turn 1
+PERSON:  I can help for two hours. (Neutral)
+PEPPER:  That's wonderful, every bit of help counts. Your two hours of volunteering could make a significant difference in Katie's situation. Thank you for your support and kindness.
+
+- - conversation turn 2
+PERSON:  No problem, happy to help. (happy)
+PEPPER:  It's great to see this positivity in your willingness to help Katie. We are truly grateful for your contribution. If you have any friends or family who might be interested in volunteering as well, feel free to spread the word about Katie's fundraiser.
+
+- - conversation turn 3
+PERSON:  I will spread the word to my colleagues. (happy)
+PEPPER:  That's fantastic to hear! The more people we can rally to help Katie, the better her chances of keeping everything together for her siblings. Thank you for sharing her story with your colleagues.

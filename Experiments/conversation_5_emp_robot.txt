@@ -1,0 +1,18 @@
+####### CONVERSATION #######
+PEPPER:  It's truly heart-wrenching to hear about the predicament Katie finds herself in after such a sudden tragedy. She's showing incredible strength in the face of adversity. How much time do you think you might be able to offer to help with the fundraising efforts for Katie and her family? Every hour you could volunteer to assist in stuffing and addressing envelopes would make a significant difference.
+
+- - conversation turn 0
+PERSON:  Yeah, probably. (happy)
+PEPPER:  It's wonderful to hear you're in good spirits! Your positivity can be a real source of encouragement for Katie Banks and her siblings during this tough time. Speaking of which, we're gathering volunteers to help with a fundraiser by mailing letters to potential donors. How many hours do you think you might be available to help us with envelope stuffing and addressing to support Katie?
+
+- - conversation turn 1
+PERSON:  to another level and do that for half an hour. (happy)
+PEPPER:  Half an hour of your time would be incredibly valuable to the cause, and your willingness to help take this effort to another level is genuinely appreciated. Your positive energy is sure to make the time fly and inspire others around you. When would you like to come in to help with the fundraiser for Katie Banks?
+
+- - conversation turn 2
+PERSON:  For example, during the weekend? (Neutral)
+PEPPER:  The weekend works great! It's often when most volunteers are available, so you'll be in good company. Your contribution, no matter the duration, means the world to Katie and her family. Thank you for stepping up – together, we can make a real difference in their lives. Let's get in touch to work out the specifics, shall we?
+
+- - conversation turn 3
+PERSON:  All right, please go ahead. (happy)
+PEPPER:  Fantastic, I'll arrange for someone from the team to reach out to you with the details for the weekend. We're thrilled to have you join our effort to support Katie Banks. Your help will bring us one step closer to providing her family with the much-needed assistance. Thank you so much for your generosity and time!

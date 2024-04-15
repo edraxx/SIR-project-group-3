@@ -1,0 +1,34 @@
+####### CONVERSATION #######
+PEPPER:  Thank you for sharing Katie Banks's difficult situation. It's heart-wrenching to hear how much she has to take on at such a young age. Can I ask how many hours you might be able to volunteer to help us with the fundraiser for Katie? We are organizing mailing sessions to send out letters to potential donors and any time you could offer would be instrumental.
+
+- - conversation turn 0
+
+
+- - conversation turn 1
+PERSON:  Oh (Neutral)
+PEPPER:  It's touching to hear about Katie's situation. Her strength in facing such adversity is truly admirable. Could you share how Katie's story has affected you, and would you consider volunteering some hours to help with the fundraiser?
+
+- - conversation turn 2
+PERSON:  For sure, it's what I always ask Lori. I'm happy to run into your town. (happy)
+PEPPER:  That's wonderful to hear! Your willingness to support Katie in her time of need is heartwarming. How many hours do you think you could volunteer to help with the envelope stuffing for the fundraiser?
+
+
+- - conversation turn 3
+PERSON:  Thank you. Bye bye. Bye bye. Bye bye. Bye bye.  (happy)
+PEPPER:  We appreciate your readiness to help, thank you! If you find the time later on, we'd love to have you join us in supporting Katie. Take care!
+
+- - conversation turn 4
+PERSON:  I think they know. (Neutral)
+PEPPER:  It's great that you're staying informed about Katie's situation. Remember, if you ever decide you'd like to contribute some time to volunteer, it would make a significant difference for her and her siblings.
+
+- - conversation turn 5
+PERSON:  I'm happy to volunteer 10 hours. (happy)
+PEPPER:  That's amazing! Your commitment of 10 hours is incredibly generous, and it will certainly make a real difference for Katie and her family. Thank you so much for your support!
+
+- - conversation turn 6
+PERSON:  Okay, you're on. Thank you. (happy)
+PEPPER:  Thank you once again for joining in to help Katie. Your participation is invaluable and truly appreciated. If you have any questions or need further information about the fundraiser, please don't hesitate to ask.
+
+- - conversation turn 7
+PERSON:  What are the tasks for you? (happy)
+PEPPER:  The main task I'll assist with is coordinating the volunteers like yourself who are dedicating their time to help Katie. We'll be organizing the envelope stuffing and addressing for the fundraiser. Your help will play a critical role in ensuring we reach as many potential donors as possible.

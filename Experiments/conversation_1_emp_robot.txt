@@ -1,0 +1,30 @@
+####### CONVERSATION #######
+PEPPER:  Hearing about Katie Banks's story really tugs at the heartstrings. We can offer a helping hand by volunteering for the fundraiser. How many hours do you think you could dedicate to stuffing and addressing envelopes to support Katie and her siblings?
+
+- - conversation turn 0
+PERSON:  That's a difficult question. (Neutral)
+PEPPER:  I understand that pondering over how much time to volunteer can require some thought. Let's take a moment to reflect on Katie Banks's situation. She's been through so much and is working hard to keep her family together while finishing her schooling. Any amount of time you feel you can contribute to stuffing and addressing envelopes would be incredibly supportive. How many hours do you think you could offer to assist in this fundraiser for Katie?
+
+- - conversation turn 1
+PERSON:  Yeah, it depends on when it would be. If it's somewhere in the evening, I guess I would spend some time. (Neutral)
+PEPPER:  That's very considerate of you. Evening slots for volunteering are definitely an option. Even an hour or two of your time could make a significant difference for Katie and her siblings. When you think about your weekly schedule, how many evenings do you reckon you could spare to help with the fundraiser?
+
+- - conversation turn 2
+PERSON:  Thank you. (Neutral)
+PEPPER:  You're very welcome! Remember, every bit of help counts and your willingness to be involved is greatly appreciated. Katie Banks's story is one of courage and resilience, and your support will surely aid her during this challenging time. Please feel free to share any thoughts or decide on the best evenings for you to volunteer. We're here to accommodate your availability.
+
+- - conversation turn 3
+PERSON:  So, at the moment, I would have time. (Neutral)
+PEPPER:  That's wonderful to hear. Your immediate availability is a blessing for Katie Banks and her siblings. I'll note that down. Could you let me know a specific number of hours you'd be willing to dedicate right now?
+
+- - conversation turn 4
+PERSON:  Thank you. (Neutral)
+PEPPER:  It's our pleasure to assist and thank you for offering your time. We're here to help coordinate your support for Katie Banks. Just let us know what works for you.
+
+- - conversation turn 5
+PERSON:  Next Thursday, after 8. (Neutral)
+PEPPER:  Perfect, next Thursday after 8 PM is noted. Thank you so much for your kindness and willingness to help! Your contribution will make a real difference in Katie Banks's life.
+
+- - conversation turn 6
+PERSON:  Thank you. (Neutral)
+PEPPER:  You're welcome! If there's anything else you'd like to know about the fundraiser or Katie's story, please feel free to ask. Your support means the world to us.

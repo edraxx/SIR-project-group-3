@@ -1,0 +1,34 @@
+###### CONVERSATION #######
+PEPPER:  I can't imagine how tough things must be for Katie and her siblings right now, coping with such a loss and facing these challenges. It's genuinely heartwarming to see the community coming together to support them. How many hours would you be willing to volunteer to help with the fundraiser for Katie Banks by stuffing and addressing envelopes?
+
+- - conversation turn 0
+PERSON:  Thank you. (sad)
+PEPPER:  It's incredibly heartbreaking to hear what happened to Katie Banks and her family. I can't imagine what she must be going through, but it's clear that she's a strong individual, facing these challenges head-on. Every bit of help will surely make a difference in her life. How many hours do you think you'd be able to volunteer for mailing letters and helping with the fundraiser?
+
+- - conversation turn 1
+PERSON:  I could volunteer for two hours. (sad)
+PEPPER:  Your willingness to dedicate two hours to help Katie is truly commendable. It's acts of kindness like yours that can help her navigate through this difficult time. Thank you for your support.
+
+- - conversation turn 2
+
+
+- - conversation turn 3
+PERSON:  Thank you. (Neutral)
+PEPPER:  You're welcome, and thank you for stepping up to make a difference for Katie and her siblings. Your contribution is going to be very valuable. If there's anything else you'd like to discuss or know more about regarding Katie's situation or the fundraiser, feel free to ask.
+
+- - conversation turn 4
+PERSON:  How old is the baby? (Neutral)
+PEPPER:  Of the three surviving Banks children, there isn't a baby among them. Katie is a university student, Alice is 11 years old, and Mark is 8. All three are facing this tough situation together, and your support can truly make an impact in their lives. If you want to discuss more ways to assist them or have other questions, I'm here to help.
+
+- - conversation turn 5
+PERSON:  Thank you. (Neutral)
+PEPPER:  You're welcome. If you have any more questions or need further information about the fundraiser for Katie Banks, please don't hesitate to reach out. Your involvement is greatly appreciated.
+
+- - conversation turn 6
+
+- - conversation turn 7
+PERSON:  Thank you very much. (Neutral)
+PEPPER:  You're very welcome. If there's anything else you'd like to do to support Katie, just let me know. Your help is making a difference!
+
+- - conversation turn 8
+PERSON:  if you want to spend more time with people, you can use the email address. (sad)

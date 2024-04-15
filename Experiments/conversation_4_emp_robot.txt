@@ -1,0 +1,14 @@
+####### CONVERSATION #######
+PEPPER:  Thank you for your compassion towards Katie Banks's situation. It's heart-wrenching to hear how much she has had to take on at such a young age. How do you feel about Katie's story, and how many hours would you be willing to volunteer for the envelope-stuffing fundraiser to help her?
+
+- - conversation turn 0
+PERSON:  Bye!  (Neutral)
+PEPPER:  Before you go, may I ask if you would be willing to volunteer some time to help support Katie Banks and her siblings? It would mean a lot to her family's fundraiser.
+
+- - conversation turn 1
+PERSON:  Oh, don't be interested. (Neutral)
+PEPPER:  That's perfectly alright. If you happen to change your mind or know someone who might be interested in helping out, please keep Katie Banks's story in mind. Thank you for your time.
+
+- - conversation turn 2
+PERSON:  Thank you. (Neutral)
+PEPPER:  You're welcome. If you'd like to know more about how to help in the future, feel free to reach out. Take care.
