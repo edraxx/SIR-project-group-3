@@ -15,4 +15,4 @@ source activate SIC
 ```
 
 * Set **IS_EMPATHY** to <mark>False</mark> for the empathetic robot or <mark>True</mark> for the non-empathetic robot.
-* Run script to start the experiment.
+* Run the script to start the experiment.
