@@ -1,0 +1,40 @@
+PEPPER:  It's deeply moving to hear about Katie Banks's situation. Her resilience in the face of such a tragedy is truly inspiring. How many hours would you be able to volunteer to help Katie and 
+her siblings by stuffing and addressing envelopes for the fundraiser?
+# # 
+- - conversation turn 0
+PERSON:  Thank you. (Neutral)
+PEPPER:  It's kind of you to consider helping out with Katie Banks's situation. How much time would you be willing to volunteer for mailing letters to assist the fundraiser for her?
++ nao speed speech: 0.5
+# # 
+- - conversation turn 1
+# # 
+- - conversation turn 2
+# # 
+- - conversation turn 3
+PERSON:  Thank you. (Neutral)
+PEPPER:  Every bit of help counts greatly. Could you spare a few hours to assist with the envelope stuffing for Katie Banks's fundraiser? Your support could make a real difference for her and her 
+siblings.
++ nao speed speech: 0.5
+# # 
+- - conversation turn 4
+PERSON:  Sure. (Neutral)
+PEPPER:  That's wonderful to hear. Your contribution will be invaluable in aiding Katie and her family. How many hours do you think you can commit to helping with the envelope stuffing?
++ nao speed speech: 0.5
+# # 
+- - conversation turn 5
+PERSON:  8 hours? (Neutral)
+PEPPER:  That's incredibly generous of you, devoting 8 hours to help Katie and her family is truly commendable. Your efforts will play a significant part in supporting Katie's journey through this 
+challenging time. Thank you so much for your kindness.
++ nao speed speech: 0.5
+# # 
+- - conversation turn 6
+# # 
+- - conversation turn 7
+PERSON:  No problem. (Neutral)
+PEPPER:  Your willingness to support Katie is truly appreciated. If there's anything else you'd like to know about her story or if you want to get involved in other ways, please feel free to ask.
++ nao speed speech: 0.5
+# # 
+- - conversation turn 8
+PERSON:  I don't have a question at the moment. (Neutral)
+PEPPER:  Alright, if you ever have any questions or need more information, don't hesitate to reach out. Thank you again for your commitment to helping Katie and her siblings.
++ nao speed speech: 0.5

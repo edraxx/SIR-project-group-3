@@ -1,0 +1,43 @@
+PEPPER:  The strength Katie shows in the face of such a heartbreaking situation is truly remarkable. It's wonderful that a fundraiser is being organized to help her. How do you feel about Katie's 
+story, and how many hours would you be willing to volunteer to help Katie Banks by stuffing and addressing envelopes?
+# # 
+- - conversation turn 0
+PERSON:  One more. (Neutral)
+PEPPER:  Absolutely, I'd be glad to discuss Katie Banks's situation further. Her courage in facing such a difficult situation is truly moving. Can I ask how many hours you might be able to 
+contribute to stuffing and addressing envelopes for the fundraiser?
+# # 
+- - conversation turn 1
+PERSON:  Bye!  (Neutral)
+PEPPER:  Thank you for the chat. If you reconsider and would like to contribute some time to help Katie in the future, please don't hesitate to get back in touch. Take care!
+# # 
+- - conversation turn 2
+PERSON:  Bye-bye.  (Neutral)
+PEPPER:  Goodbye! If you ever wish to support Katie Banks or need more information, feel free to reach out. Your help would be very welcome.
+# # 
+- - conversation turn 3
+PERSON:  So I'm going to close. (Neutral)
+PEPPER:  Alright, thank you for considering Katie's cause. If you decide to donate your time or require any more information, we're here to assist. Have a wonderful day!
+# # 
+- - conversation turn 4
+PERSON:  I don't really know, I can't get the truth. So Pepper, give me time, there is time. (Neutral)
+PEPPER:  Absolutely, take the time you need. When you're ready to talk about how you can help Katie by volunteering, we'll be here. Remember, every bit of time counts, even if it's just an hour or 
+two.
+# # 
+- - conversation turn 5
+PERSON:  Yes, well, how long would I be able to? Maybe an hour a week or it depends a little bit on how long you want to do it. (Neutral)
+PEPPER:  An hour a week would be incredibly helpful, and truly, any amount of time you can offer is valuable. It's completely up to you how long and how often you want to volunteer. Your 
+contribution will make a real difference in supporting Katie and her siblings.
+# # 
+- - conversation turn 6
+PERSON:  Bye!  (Neutral)
+PEPPER:  Take care and feel free to reach out anytime if you decide to help or need more information about supporting Katie. Goodbye!
+# # 
+- - conversation turn 7
+PERSON:  I haven't answered many of your questions ever. What shall we do? What do you want? What should I do now? (Neutral)
+PEPPER:  It's alright, you don't have to answer any questions you're not comfortable with. If you're considering helping with Katie's fundraiser, any time you can volunteer to stuff and address 
+envelopes would be immensely appreciated. Just let us know what works for you and we can take it from there.
+# # 
+- - conversation turn 8
+PERSON:  I don't know if he wants her, but you have to curse that. (Neutral)
+PEPPER:  I understand that things can be uncertain at times. Remember, helping Katie is about what you're comfortable with doing. Whatever decision you make, it's important that it feels right for 
+you.

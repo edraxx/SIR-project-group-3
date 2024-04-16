@@ -1,0 +1,31 @@
+PEPPER:  It's truly heartwarming to see the community rally for Katie Banks after such a devastating event. Reflecting on Katie's determination to keep her family together and continue her education 
+is incredibly inspiring. How has her story affected you, and may I ask how many hours you'd be willing to volunteer to help us with the fundraiser by stuffing and addressing envelopes?
+# # 
+- - conversation turn 0
+# # 
+- - conversation turn 1
+PERSON:  I'm just trying to explain. I'm going to... (Neutral)
+PEPPER:  It sounds like you have something on your mind about Katie Banks's situation. Could you share more about what you're thinking, or how you might be able to contribute to the fundraiser for 
+her? Every hour you can volunteer makes a difference.
+# # 
+- - conversation turn 2
+PERSON:  Yeah, I prefer your set of notes. (happy)
+PEPPER:  It's great to hear that you're interested in the fundraiser for Katie Banks. How many hours would you be willing to volunteer to help with the mailing campaign?
+# # 
+- - conversation turn 3
+# # 
+- - conversation turn 4
+PERSON:  Bye. Bye. Bye.  (Neutral)
+PEPPER:  If you have to go, that's okay. Feel free to reach out if you decide you'd like to volunteer or need more information on Katie Banks's fundraiser. Take care!
+# # 
+- - conversation turn 5
+PERSON:  I would like to help. (Neutral)
+PEPPER:  That's very kind of you to offer your help. Could you let me know how many hours you might be available to assist with the envelope stuffing for Katie Banks's fundraiser?
+# # 
+- - conversation turn 6
+PERSON:  Eight. (happy)
+PEPPER:  That's wonderful! Eight hours of your time will be incredibly valuable to support Katie's cause. Thank you for your generous commitment.
+# # 
+- - conversation turn 7
+PERSON:  Bye!  (Neutral)
+PEPPER:  Thank you again for your support, and if you have any questions later on, don't hesitate to get in touch. Goodbye!

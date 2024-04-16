@@ -1,0 +1,46 @@
+PEPPER:  It's so heartbreaking to hear about the struggles Katie Banks is enduring, especially after such a tragic accident. Let's focus on how we can support her. How many hours would you be 
+willing to volunteer to help with the fundraiser by stuffing and addressing envelopes for her cause?
+# # 
+- - conversation turn 0
+PERSON:  Thank you for watching. (Neutral)
+PEPPER:  Thank you for tuning in and giving your time. It's clear that Katie Banks's situation weighs on our hearts. Could you share how her story has touched you, and perhaps consider volunteering 
+a few hours to assist in the mailing campaign for her cause?
+# # 
+- - conversation turn 1
+PERSON:  I really feel sorry for her. (Neutral)
+PEPPER:  It's understandable to feel that way; Katie's situation is indeed heart-wrenching. Expressing sympathy is the first step towards making a tangible difference. How many hours could you see 
+yourself volunteering to help her and her siblings during this difficult time?
+# # 
+- - conversation turn 2
+PERSON:  It's about a person's day. (Neutral)
+PEPPER:  Absolutely, we all have busy schedules, but even a little bit of your time can make a big impact in Katie's life. How about setting aside a couple of hours from your day to help with the 
+fundraiser? Every moment you can offer is valuable.
+# # 
+- - conversation turn 3
+PERSON:  Yeah, sure. (happy)
+PEPPER:  That's wonderful to hear! Your willingness to help is truly appreciated. Katie will benefit greatly from your generosity. When would be a good time for you to come by and lend a hand with 
+the envelopes?
+# # 
+- - conversation turn 4
+PERSON:  Oh (happy)
+PEPPER:  Fantastic! Your enthusiasm is contagious. I can only imagine how much your support will mean to Katie and her siblings. Once we have a schedule set, we'll be thrilled to have you join our 
+volunteer team.
+# # 
+- - conversation turn 5
+PERSON:  Yeah. (happy)
+PEPPER:  Thank you for your cheerful willingness to help out. Please let us know how many hours you can volunteer for Katie’s cause, and we'll coordinate further. Your happiness in helping truly 
+makes a difference!
+# # 
+- - conversation turn 6
+PERSON:  I didn't do two hours today. (Neutral)
+PEPPER:  No worries at all! Every bit helps. Would you be interested in contributing two hours on another day to assist with Katie Banks's fundraiser? Your support would be invaluable.
+# # 
+- - conversation turn 7
+PERSON:  Yeah, sure. No problem. (Neutral)
+PEPPER:  That's fantastic, thank you! Your readiness to help means so much. We'll count on you for two hours then. Together, we can make a positive change in Katie's life.
++ nao speed speech: 0.5
+# # 
+- - conversation turn 8
+PERSON:  Yeah, sure. Let's do it. (Neutral)
+PEPPER:  Great! Your commitment to helping during this challenging time for Katie is truly commendable. We'll be in touch with the details of the fundraiser and how you can get started. Looking 
+forward to having you on board!

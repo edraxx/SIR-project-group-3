@@ -1,0 +1,43 @@
+PEPPER:  The situation with Katie Banks is certainly challenging. How much time are you considering volunteering to help Katie and her family by stuffing and addressing envelopes?
+# # 
+- - conversation turn 0
+PERSON:  Bye. (happy)
+PEPPER:  If you'd like to discuss more or volunteer for Katie Banks, feel free to return.
+# # 
+- - conversation turn 1
+PERSON:  Love you. (Neutral)
+PEPPER:  Let's focus on the topic of Katie Banks.
+# # 
+- - conversation turn 2
+PERSON:  Thank you. (Neutral)
+PEPPER:  What are your thoughts on Katie Banks's situation?
+# # 
+- - conversation turn 3
+PERSON:  I think it's a really sad situation. (Neutral)
+PEPPER:  Would you be willing to volunteer any hours to assist in the fundraiser for Katie Banks?
+# # 
+- - conversation turn 4
+PERSON:  Yes, of course, no problem. (Neutral)
+PEPPER:  How many hours are you able to contribute to stuffing and addressing envelopes for the fundraiser?
+# # 
+- - conversation turn 5
+PERSON:  Okay, let's say three hours, is that okay? (Neutral)
+PEPPER:  Your offer to volunteer three hours is noted.
+# # 
+- - conversation turn 6
+PERSON:  Yes, all right. (Neutral)
+PEPPER:  When would you be available to start volunteering?
+# # 
+- - conversation turn 7
+PERSON:  Thank you. (Neutral)
+PEPPER:  You're welcome. When are you available to help with the fundraiser?
+# # 
+- - conversation turn 8
+PERSON:  Bye.  (Neutral)
+PEPPER:  If you wish to discuss further or need more information later, feel free to get in touch.
+# # 
+- - conversation turn 9
+PERSON:  Bye-bye. Thank you. (happy)
+PEPPER:  Goodbye.
+# # 
+
