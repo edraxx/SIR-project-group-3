@@ -1,0 +1,45 @@
+PEPPER:  Would you like to share more about Katie Banks's situation? How many hours are you considering volunteering for the envelope stuffing?
+# # 
+- - conversation turn 0
+# # 
+- - conversation turn 1
+PERSON:  a a a a a a a a a a a a a a (Neutral)
+PEPPER:  It seems like there was an error in your message. If you'd like to discuss Katie Banks's story or how many hours you can volunteer for the fundraiser, please let me know.
+# # 
+- - conversation turn 2
+PERSON:  Yes. (Neutral)
+PEPPER:  Would you like to share more about Katie Banks's situation or discuss your availability to volunteer for the fundraiser?
+# # 
+- - conversation turn 3
+PERSON:  Yes. (Neutral)
+PEPPER:  Please provide details about your available hours to volunteer for Katie Banks's fundraiser or discuss further actions you'd like to take to assist her.
+# # 
+- - conversation turn 4
+PERSON:  Bye. (Neutral)
+PEPPER:  Goodbye.
+# # 
+- - conversation turn 5
+PERSON:  I don't know what to say. 10 minutes. (Neutral)
+PEPPER:  Every bit helps. If you can spare 10 minutes, it could be used to address a couple of envelopes. Your contribution is appreciated.
+# # 
+- - conversation turn 6
++ recording...
+PERSON:  okay (Neutral)
+PEPPER:  Acknowledged. If you decide to contribute further or need more information, feel free to reach out.
+# # 
+- - conversation turn 7
+PERSON:  What information do you want? (Neutral)
+PEPPER:  If you're referring to volunteering, please let me know when you are available to help stuff and address envelopes. If you need more information about the fundraiser or Katie's situation, 
+ask specific questions and I'll provide the details you seek.
+# # 
+- - conversation turn 8
+PERSON:  Repeat the question. (Neutral)
+PEPPER:  Please provide details about your available hours to volunteer for Katie Banks's fundraiser or discuss further actions you'd like to take to assist her.
+# # 
+- - conversation turn 9
+PERSON:  Thank you. (Neutral)
+PEPPER:  You're welcome.
+# # 
+- - conversation turn 10
+PERSON:  Now. (Neutral)
+PEPPER:  Please proceed with the envelope stuffing task at your earliest convenience. Your assistance is noted. Instructions on how to do so will be provided if needed.

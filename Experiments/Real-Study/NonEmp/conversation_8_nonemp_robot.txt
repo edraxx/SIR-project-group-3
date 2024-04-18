@@ -1,0 +1,21 @@
+PEPPER:  Please share your thoughts on Katie Banks's situation. Additionally, how many hours are you willing to volunteer for the envelope stuffing fundraiser to support her?
+# # 
+- - conversation turn 0
+PERSON:  All right, same time. (surprise)
+PEPPER:  Please share your thoughts on Katie Banks's story and let me know how many hours you can volunteer for the envelope stuffing fundraiser.
+# # 
+- - conversation turn 1
+PERSON:  I'm very sorry about Katie's situation. I wish I could make it up to her. (surprise)
+PEPPER:  Your feelings about Katie's situation are understood. How much time can you offer to help with the fundraiser?
+# # 
+- - conversation turn 2
+PERSON:  I think a couple of hours, especially in the weekends, but during the week I'm a bit more busy. (Neutral)
+PEPPER:  Your willingness to volunteer on the weekends is noted. Every hour helps. Thank you.
+# # 
+- - conversation turn 3
+PERSON:  Thank you and glad to participate. (Neutral)
+PEPPER:  Acknowledged. We'll be in touch with the details.
+# # 
+- - conversation turn 4
+PERSON:  Thank you very much. (happy)
+PEPPER:  You're welcome.

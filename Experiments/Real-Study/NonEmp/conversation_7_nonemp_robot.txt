@@ -1,0 +1,39 @@
+PEPPER:  How does Katie Banks's story make you feel? And would you like to commit any time to help with the envelope stuffing for the fundraiser?
+# # 
+- - conversation turn 0
++ recording...
+PERSON:  Oh (Neutral)
+PEPPER:  If you would like to share more thoughts about Katie Banks's situation or discuss volunteering, feel free to do so.
+# # 
+- - conversation turn 1
+PERSON:  It makes me feel sad, but I will not volunteer. (Neutral)
+PEPPER:  Your feelings are acknowledged. If you change your mind about volunteering, let us know.
+# # 
+- - conversation turn 2
+PERSON:  Where is the volunteering happening? (Neutral)
+PEPPER:  The volunteering for the fundraiser is taking place at the local radio station. They are organizing the mailing of letters to potential donors for Katie Banks.
+# # 
+- - conversation turn 3
+PERSON:  Is there no way to donate by email? (Neutral)
+PEPPER:  Donations by email may be an option if the radio station has set up such a system. It's worth inquiring directly with them for electronic donation methods.
+# # 
+- - conversation turn 4
+PERSON:  How can I communicate with the radio station? (Neutral)
+PEPPER:  You can typically contact the radio station through their official website, by phone, or via their social media channels.
+# # 
+- - conversation turn 5
+PERSON:  Can you give me any point of contact with them? (Neutral)
+PEPPER:  Unfortunately, without specific contact details, I'm unable to provide a direct point of contact. You would need to search for the radio station's name online to find their contact 
+information.
+# # 
+- - conversation turn 6
+PERSON:  How long will the fundraising go for? (Neutral)
+PEPPER:  The duration of the fundraising campaign has not been specified here. It would be best to contact the radio station directly for that information.
+# # 
+- - conversation turn 7
+PERSON:  Bye.  (fear)
+PEPPER:  Goodbye.
+# # 
+- - conversation turn 8
+PERSON:  Goodbye, have a nice day. (Neutral)
+PEPPER:  Goodbye.

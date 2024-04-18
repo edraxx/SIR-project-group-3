@@ -1,0 +1,22 @@
+PEPPER:  Could you share more about your thoughts on Katie Banks's situation and how many hours you might be willing to contribute to the envelope stuffing and addressing for the fundraiser?
+# # 
+- - conversation turn 0
++ recording...
+PERSON:  Bye. (Neutral)
+PEPPER:  Goodbye.
+# # 
+- - conversation turn 1
+PERSON:  Thank you. Bye-bye.  (Neutral)
+PEPPER:  Goodbye.
+# # 
+- - conversation turn 2
+PERSON:  Any Max's situation is quite sad and she's in need of help and it would be a really good cause. (Neutral)
+PEPPER:  Understood. How many hours are you willing to volunteer to help with the fundraiser for Katie Banks?
+# # 
+- - conversation turn 3
+PERSON:  I don't like to give up a day, maybe 8 hours, 10 hours. (Neutral)
+PEPPER:  Your willingness to volunteer 8 to 10 hours is noted. Thank you.
+# # 
+- - conversation turn 4
+PERSON:  Thank you. (Neutral)
+PEPPER:  You're welcome.

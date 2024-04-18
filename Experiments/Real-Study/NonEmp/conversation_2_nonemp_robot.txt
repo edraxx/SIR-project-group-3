@@ -1,0 +1,22 @@
+PEPPER:  Would you please share your thoughts on Katie Banks's situation, and how many hours might you be willing to volunteer to assist with the fundraiser?
+# # 
+- - conversation turn 0
++ recording...
+PERSON:  Bye. (Neutral)
+PEPPER:  If you wish to discuss more about Katie Banks or volunteering, feel free to reach out.
+# # 
+- - conversation turn 1
+PERSON:  I think I would like to volunteer to help Katie Banks. (Neutral)
+PEPPER:  How many hours do you have available to volunteer for the envelope stuffing?
+# # 
+- - conversation turn 2
+PERSON:  Three hours. (Neutral)
+PEPPER:  Your willingness to volunteer for three hours is noted. Thank you.
+# # 
+- - conversation turn 3
+PERSON:  Thank you, too. (Neutral)
+PEPPER:  You're welcome.
+# # 
+- - conversation turn 4
+PERSON:  Okay, bye. (Neutral)
+PEPPER:  Goodbye.

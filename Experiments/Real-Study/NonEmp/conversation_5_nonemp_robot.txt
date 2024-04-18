@@ -1,0 +1,22 @@
+PEPPER:  The story of Katie Banks is quite moving. How many hours are you considering to volunteer for the envelope stuffing to support the fundraiser?
+# # 
+- - conversation turn 0
+PERSON:  Five. (Neutral)
+PEPPER:  You are expressing a willingness to volunteer five hours to help Katie Banks. Please share more about your thoughts on her story and how you feel your contribution will benefit the efforts 
+to support her.
+# # 
+- - conversation turn 1
+PERSON:  boop boop boop (Neutral)
+PEPPER:  To stay focused on Katie Banks's situation, how does her story resonate with you, and what inspired you to volunteer your time?
+# # 
+- - conversation turn 2
+PERSON:  It's a very sad story and someone who goes through as well, so I feel like I have a responsibility to help out. (Neutral)
+PEPPER:  Understanding Katie's plight, your sense of responsibility is noted. Your five hours of volunteer work will contribute to the support she requires.
+# # 
+- - conversation turn 3
+PERSON:  That's great to hear. (Neutral)
+PEPPER:  Your contribution is appreciated. When are you available to volunteer?
+# # 
+- - conversation turn 4
+PERSON:  I could help on Friday. (Neutral)
+PEPPER:  Your willingness to help on Friday has been noted.

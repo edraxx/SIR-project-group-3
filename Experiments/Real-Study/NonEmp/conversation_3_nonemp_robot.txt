@@ -1,0 +1,20 @@
+PEPPER:  It's understandable why you might be interested in supporting Katie Banks. How much time do you think you can commit to volunteer for stuffing and addressing envelopes for the fundraiser?
+# # 
+- - conversation turn 0
+PERSON:  That was fun today. (Neutral)
+PEPPER:  It's good to hear that you're engaged. What are your thoughts on contributing to the fundraiser for Katie Banks?
+# # 
+- - conversation turn 1
+PERSON:  I was very much glad to contribute. (Neutral)
+PEPPER:  How many hours would you be willing to volunteer for stuffing and addressing envelopes to help Katie Banks?
+# # 
+- - conversation turn 2
+PERSON:  That's all for about 8 hours. (Neutral)
+PEPPER:  Your willingness to contribute 8 hours is noted. Every bit of help counts for Katie’s situation.
+# # 
+- - conversation turn 3
+PERSON:  Thank you. (Neutral)
+PEPPER:  You're welcome.
+# # 
+- - conversation turn 4
+# # 

@@ -1,0 +1,17 @@
+PEPPER:  The story of Katie Banks is indeed difficult. How do you feel about volunteering your time to help with the fundraiser?
+# # 
+- - conversation turn 0
+PERSON:  Thank you.  (Neutral)
+PEPPER:  You're welcome. How do you feel about Katie Banks's situation, and how many hours are you willing to volunteer to help with the fundraiser?
+# # 
+- - conversation turn 1
+PERSON:  Very few, do not. (Neutral)
+PEPPER:  Understood. Every bit of help counts. If you decide on the number of hours you're willing to contribute to assist with mailing letters for the fundraiser, please let us know.
+# # 
+- - conversation turn 2
+PERSON:  One hour. (Neutral)
+PEPPER:  Your one-hour contribution to the mailing effort for Katie Banks’s fundraiser is appreciated. When you're ready to schedule that hour, you can reach out to the organizers.
+# # 
+- - conversation turn 3
+PERSON:  Alright, thank you. (Neutral)
+PEPPER:  You're welcome.

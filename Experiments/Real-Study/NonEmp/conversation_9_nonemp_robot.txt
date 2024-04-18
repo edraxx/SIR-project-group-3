@@ -1,0 +1,31 @@
+PEPPER:  If you're considering volunteering to help Katie Banks, could you specify how much time you're willing to dedicate to stuffing and addressing envelopes for the fundraiser?
+# # 
+- - conversation turn 0
+PERSON:  Thank you. (Neutral)
+PEPPER:  If you're considering volunteering to help Katie Banks, how many hours do you think you could allocate to stuffing and addressing envelopes?
+# # 
+- - conversation turn 1
+# # 
+- - conversation turn 2
+# # 
+- - conversation turn 3
+PERSON:  I will. I will get you. I know. I know.  (Neutral)
+PEPPER:  Understanding that you're willing to help, could you specify the number of hours you are available to volunteer for the envelope stuffing?
+# # 
+- - conversation turn 4
+PERSON:  What happened? (Neutral)
+PEPPER:  Katie Banks is a student whose parents and sister were killed in a car accident. She is now responsible for her two younger siblings and is seeking assistance through a fundraiser where 
+people can volunteer to help with mailing efforts.
+# # 
+- - conversation turn 5
+# # 
+- - conversation turn 6
+PERSON:  Bye. Bye. Bye.  (Neutral)
+PEPPER:  Goodbye.
+# # 
+- - conversation turn 7
+PERSON:  Okay, I'm sorry. I'm just confused. I think we should go very fast. I can do it again if you want. (Neutral)
+PEPPER:  When you're ready, please provide the hours you can volunteer.
+# # 
+- - conversation turn 8
+PERSON:  One hour. (Neutral)

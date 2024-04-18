@@ -1,0 +1,35 @@
+PEPPER:  Would you like to share more about Katie Banks's situation? How many hours can you volunteer to help with the fundraiser?
+# # 
+- - conversation turn 0
+# # 
+- - conversation turn 1
+PERSON:  I think we're good for now. One hour. (Neutral)
+PEPPER:  Understood. Every hour counts. Would you like to share how Katie Banks's story has impacted you or any further thoughts on volunteering?
+# # 
+- - conversation turn 2
+PERSON:  Oh, it's a sad story, so I'm going to... (Neutral)
+PEPPER:  Thank you for considering Katie's situation. Your efforts in volunteering could provide meaningful support for her and her siblings.
+# # 
+- - conversation turn 3
+PERSON:  Yeah, sure. (Neutral)
+PEPPER:  Your commitment to helping is acknowledged. Let's arrange the details for your volunteering hour.
+# # 
+- - conversation turn 4
+PERSON:  Boop, boop, boop. (Neutral)
+PEPPER:  When you're ready to discuss further, feel free to provide more details.
+# # 
+- - conversation turn 5
+PERSON:  Can you give me a time slot? (Neutral)
+PEPPER:  A time slot for volunteering can be scheduled for you. What time are you available?
+# # 
+- - conversation turn 6
+PERSON:  Boop, boop, boop. You're saying good morning. (Neutral)
+PEPPER:  Good morning. What time would you like to volunteer?
+# # 
+- - conversation turn 7
+PERSON:  Usually in the morning (Neutral)
+PEPPER:  A morning time slot will be arranged for your volunteering.
+# # 
+- - conversation turn 8
+PERSON:  Okay, thanks. (Neutral)
+PEPPER:  You're welcome. The details will be provided to you.

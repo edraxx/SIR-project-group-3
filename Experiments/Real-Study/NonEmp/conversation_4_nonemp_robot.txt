@@ -1,0 +1,48 @@
+PEPPER:  The story of Katie Banks is unfortunate. How many hours are you willing to volunteer to help with the fundraiser by stuffing and addressing envelopes?
+# # 
+- - conversation turn 0
+PERSON:  Subs by www.zeoranger.co.uk (Neutral)
+PEPPER:  The information provided seems unrelated to the topic of Katie Banks. Would you like to discuss Katie's situation or how you can volunteer for the fundraiser?
+# # 
+- - conversation turn 1
+PERSON:  One hour. (Neutral)
+PEPPER:  Understood. Your willingness to volunteer for one hour on the fundraiser for Katie Banks is noted. Any specific time or day you're available?
+# # 
+- - conversation turn 2
+PERSON:  Friday afternoon. (Neutral)
+PEPPER:  Your offer to volunteer on Friday afternoon is appreciated. Instructions for envelope stuffing will be provided then.
+# # 
+- - conversation turn 3
+PERSON:  I didn't catch that. (Neutral)
+PEPPER:  Your offer to volunteer on Friday afternoon is appreciated. Instructions for envelope stuffing will be provided then.
+# # 
+- - conversation turn 4
+PERSON:  Boop boop boop. (Neutral)
+PEPPER:  Is there anything else you would like to know about helping Katie Banks or any other assistance you're planning to provide?
+# # 
+- - conversation turn 5
+PERSON:  Well, I don't get what this is about. What do I have to do? (Neutral)
+PEPPER:  As part of the fundraising efforts for Katie Banks, volunteers are asked to assist by stuffing and addressing envelopes. This would involve placing letters into the envelopes, sealing them, 
+and writing addresses on them to be mailed to potential donors. Your help would contribute to raising the necessary funds to support Katie and her siblings.
+# # 
+- - conversation turn 6
+PERSON:  Okay, I got that. (Neutral)
+PEPPER:  If you require further details or have other questions, feel free to ask.
+# # 
+- - conversation turn 7
+PERSON:  Wait, we're going to have to disconnect the other ones. (Neutral)
+PEPPER:  If you're referring to disconnecting from other commitments to volunteer, please ensure that you're available at the time you've mentioned. If there's a scheduling conflict or you need to 
+address other matters, please provide the appropriate details so that arrangements can be made accordingly.
+# # 
+- - conversation turn 8
+PERSON:  Where do I have to distribute the letters? (Neutral)
+PEPPER:  The letters for the fundraiser do not require you to distribute them physically. Your role would be to help prepare the mailings, which means stuffing and addressing envelopes. Once 
+prepared, they will be sent out through the postal service to reach potential donors.
+# # 
+- - conversation turn 9
+PERSON:  Okay, thank you. (Neutral)
+PEPPER:  You're welcome. If there's anything else you need to know, just ask.
+# # 
+- - conversation turn 10
+PERSON:  That's all. (Neutral)
+PEPPER:  If you need any further assistance in the future, feel free to reach out.
